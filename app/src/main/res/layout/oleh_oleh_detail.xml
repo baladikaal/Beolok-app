@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/recyclerview_bg"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relative_oleholeh_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="374dp"
+        android:background="@drawable/recyclerview_bg">
+
+        <ImageView
+            android:id="@+id/imgOlehDetail"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/txtOlehDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgOlehDetail"
+            android:text="NAMA OLEH OLEH"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
